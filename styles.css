@@ -1,0 +1,24 @@
+.box {
+  background-color: aqua;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 10px;
+}
+
+/* Display: Flex */
+/* containers run left to right starting in top left */
+.flex-container {
+  display: flex;
+}
+
+/* Justify-Content */
+.flex-container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
